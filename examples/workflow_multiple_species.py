@@ -6,11 +6,13 @@ Updated 3 November 2022
 Authors : Felix Michaud and Sylvain Haupert
 
 """
+import sys
+sys.path.append('..')
 
 from IPython import get_ipython
 print(__doc__)
 # Clear all the variables
-get_ipython().magic('reset -sf')
+# get_ipython().magic('reset -sf')
 
 import shutil
 import numpy as np

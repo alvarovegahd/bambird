@@ -16,3 +16,5 @@
 !.gitignore
 examples/build_dataset_temp/
 examples/build_dataset/
+# and the environment files
+!environment.yml
